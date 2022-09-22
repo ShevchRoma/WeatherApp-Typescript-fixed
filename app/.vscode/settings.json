@@ -1,0 +1,8 @@
+{
+    "prettier.enableDebugLogs": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.defaultFormatter": "michelemelluso.code-beautifier",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

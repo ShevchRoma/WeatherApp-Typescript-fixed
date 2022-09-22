@@ -1,0 +1,112 @@
+.card {
+    &__body {
+        width: 350px;
+        padding: 10px 20px 10px 15px;
+        background: #F1F2FF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 5px;
+        opacity: 1;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 95px;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__column {
+        &:last-child {
+            p {
+                text-align: left;
+                font: 13px Jost;
+                letter-spacing: 0px;
+                color: #C5C5C5;
+                opacity: 1;
+            }
+        }
+
+        .column-card {
+            &__temp {
+                text-align: left;
+                font: 44px Jost;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+
+                sup {
+                    font-size: 22px;
+                    color: #8D8D8D;
+
+                    &.active {
+                        color: #000000;
+                    }
+                }
+            }
+
+            &__feels {
+                display: flex;
+                align-items: center;
+                text-align: left;
+                color: #C5C5C5;
+                font-family: Jost;
+                opacity: 1;
+
+                p {
+                    font-size: 13px;
+                    margin: 0px 5px 0 0;
+                }
+
+                span {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    &__location {
+        margin-bottom: 12px;
+        text-align: left;
+        font-family: Jost, sans-serif;
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+
+    &__date {
+        text-align: left;
+        display: flex;
+        font: 18px Jost;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+
+    &__wind,
+    &__humidity,
+    &__pressure {
+        margin-bottom: 5px;
+
+        span {
+            &:first-child {
+                text-align: right;
+                font: normal normal normal 12px Jost;
+                letter-spacing: 0px;
+                color: #000000;
+                margin: 0 3px 0 0;
+            }
+
+            &:last-child {
+                font: 12px Jost;
+                color: #459DE9;
+                font-weight: bold;
+            }
+        }
+    }
+}
